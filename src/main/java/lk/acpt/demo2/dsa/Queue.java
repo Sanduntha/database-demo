@@ -1,7 +1,6 @@
 package lk.acpt.demo2.dsa;
 
 public class Queue {
-
     Node top;
 
     public void push(int data){
