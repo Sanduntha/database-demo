@@ -18,4 +18,10 @@ public class Queue {
             temp.next = node;
         }
     }
+    public void printQueue(){
+        Node temp = top;
+        while (temp != null){
+            System.out.println(temp.data);
+        }
+    }
 }
